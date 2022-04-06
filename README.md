@@ -1,4 +1,4 @@
-# OpenClassrooms monorepo
+# OpenClassrooms monorepo Visual Studio Code config
 
 Visual Studio Code has multiple way to be configured, and use various file/folders to do so.
 You'll find a command in this repo, to copie the files at the correct place and configure your IDE. It's a bit opinionated, but you still have possibilities to extend this conf
