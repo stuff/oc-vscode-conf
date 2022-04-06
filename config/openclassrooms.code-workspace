@@ -57,12 +57,19 @@
       "vendor/": true
     },
     "typescript.tsdk": "node_modules/typescript/lib",
-    "typescript.tsserver.log": "verbose",
+    "typescript.tsserver.log": "off",
     "jest.debugCodeLens.showWhenTestStateIn": ["fail", "unknown"],
     "jest.jestCommandLine": "yarn test",
     "jest.autoRun": "off",
     "jest.disabledWorkspaceFolders": ["Root", "Classify Packages", "modules"],
-    "jest.coverageFormatter": "DefaultFormatter"
+    "jest.coverageFormatter": "DefaultFormatter",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "eslint.packageManager": "yarn",
+    "eslint.trace.server": "off",
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSet": "defaultOutline",
+    "errorLens.messageTemplate": "[$source] $message"
   },
   "extensions": {
     "recommendations": [
