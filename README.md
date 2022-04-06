@@ -11,3 +11,4 @@ This config use workspaces for a better file organisation.
 * run `./restore.sh [your-repo-path]` it will prompt you when replacing files (so stop it if you think you'll loose some config !)
 * add `/openclassrooms.code-workspace` to your global git ignore. For now we don't want to pollute more the repo with specific IDE files
 * open vscode and use `Open workspace from File` to open the `openclassrooms.code-workspace` file (or type `code openclassrooms.code-workspace` at the root of the monorepo)
+* you may be prompted to install some plugins if you don't already have them
