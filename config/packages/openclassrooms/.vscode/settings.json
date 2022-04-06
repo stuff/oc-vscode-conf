@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "openclassrooms-sdk-web": true,
+        "openclassrooms-data-connect-web": true,
+        "openclassrooms-ui-web": true
+    },
+    "eslint.workingDirectories": [        
+        "../../"
+    ],
+}

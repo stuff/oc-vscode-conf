@@ -1,0 +1,8 @@
+{
+    "jest.jestCommandLine": "yarn test",
+    "jest.autoRun": "off",
+    "eslint.runtime": "",
+    "eslint.workingDirectories": [        
+        "../../../"
+    ],
+}

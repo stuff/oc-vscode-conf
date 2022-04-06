@@ -1,0 +1,80 @@
+{
+  "folders": [
+    {
+      "path": "src/OC/AppBundle/Javascript/src/App/Modules",
+      "name": "SdZv4 main js"
+    },
+    {
+      "path": "packages/openclassrooms",
+      "name": "Packages"
+    },
+    {
+      "path": "packages/openclassrooms/openclassrooms-sdk-web",
+      "name": "SDK"
+    },
+    {
+      "path": "packages/openclassrooms/openclassrooms-data-connect-web",
+      "name": "Data Connect"
+    },
+    {
+      "path": "packages/openclassrooms/openclassrooms-ui-web",
+      "name": "UI web"
+    },
+    {
+      "path": "packages/classify",
+      "name": "Classify"
+    },
+    {
+      "path": "modules/legal",
+      "name": "[Apps] Legal"
+    },
+    {
+      "path": ".",
+      "name": "Root"
+    }
+  ],
+  "settings": {
+    "workbench.colorCustomizations": {
+      "activityBar.background": "#402d80",
+      "titleBar.activeBackground": "#7451eb",
+      "titleBar.activeForeground": "#d2cce7"
+    },
+    "search.exclude": {
+      ".history": true,
+      ".idea": true,
+      "**/dist": true,
+      "vendor": true,
+      "web": true
+    },
+    "files.exclude": {
+      "packages/": true,
+      "modules/": true,
+      "bin/": true,
+      "cron/": true,
+      "lib/": true,
+      "patches/": true,
+      "tests/": true,
+      "vendor/": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.tsserver.log": "verbose",
+    "jest.debugCodeLens.showWhenTestStateIn": ["fail", "unknown"],
+    "jest.jestCommandLine": "yarn test",
+    "jest.autoRun": "off",
+    "jest.disabledWorkspaceFolders": ["Root", "Classify Packages", "modules"],
+    "jest.coverageFormatter": "DefaultFormatter"
+  },
+  "extensions": {
+    "recommendations": [
+      "usernamehw.errorlens",
+      "mcright.auto-save",
+      "kamikillerto.vscode-colorize",
+      "github.vscode-pull-request-github",
+      "eamodio.gitlens",
+      "orta.vscode-jest",
+      "xyz.local-history",
+      "esbenp.prettier-vscode",
+      "cssho.vscode-svgviewer"
+    ]
+  }
+}
