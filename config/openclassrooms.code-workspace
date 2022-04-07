@@ -69,7 +69,13 @@
     "eslint.trace.server": "off",
     "errorLens.gutterIconsEnabled": true,
     "errorLens.gutterIconSet": "defaultOutline",
-    "errorLens.messageTemplate": "[$source] $message"
+    "errorLens.messageTemplate": "[$source] $message",
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    },
+    "editor.formatOnSave": true
   },
   "extensions": {
     "recommendations": [
