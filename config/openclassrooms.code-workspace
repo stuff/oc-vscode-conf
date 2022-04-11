@@ -25,24 +25,24 @@
       "name": "Classify"
     },
     {
-      "name": "Design Tokens",
-      "path": "packages/classify/design-tokens"
+      "path": "packages/classify/design-tokens",
+      "name": "Design Tokens"
     },
     {
-      "name": "React Core Components",
-      "path": "packages/classify/react-core-components"
+      "path": "packages/classify/react-core-components",
+      "name": "React Core Components"
     },
     {
-      "name": "React Formik Components",
-      "path": "packages/classify/react-formik-components"
+      "path": "packages/classify/react-formik-components",
+      "name": "React Formik Components"
     },
     {
-      "path": "modules/legal",
-      "name": "[Apps] Legal"
+      "name": "[Apps] Legal",
+      "path": "modules/legal"
     },
     {
-      "path": ".",
-      "name": "Root"
+      "name": "Root",
+      "path": "."
     }
   ],
   "settings": {
