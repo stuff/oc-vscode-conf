@@ -70,6 +70,12 @@
       "vendor/": true
     },
     "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.quickSuggestions": {
+      "other": "on",
+      "comments": "off",
+      "strings": "off"
+    },
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.tsserver.log": "off",
     "jest.debugCodeLens.showWhenTestStateIn": ["fail", "unknown"],
@@ -83,18 +89,11 @@
     "eslint.trace.server": "off",
     "errorLens.gutterIconsEnabled": true,
     "errorLens.gutterIconSet": "defaultOutline",
-    "errorLens.messageTemplate": "[$source] $message",
-    "editor.quickSuggestions": {
-      "other": "on",
-      "comments": "off",
-      "strings": "off"
-    },
-    "editor.formatOnSave": true
+    "errorLens.messageTemplate": "[$source] $message"
   },
   "extensions": {
     "recommendations": [
       "usernamehw.errorlens",
-      "kamikillerto.vscode-colorize",
       "github.vscode-pull-request-github",
       "eamodio.gitlens",
       "orta.vscode-jest",
