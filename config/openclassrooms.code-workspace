@@ -43,6 +43,7 @@
       ".history": true,
       ".idea": true,
       "**/dist": true,
+      "**/coverage": true,
       "vendor": true,
       "web": true
     },
