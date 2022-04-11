@@ -25,12 +25,24 @@
       "name": "Classify"
     },
     {
-      "path": "modules/legal",
-      "name": "[Apps] Legal"
+      "path": "packages/classify/design-tokens",
+      "name": "Design Tokens"
     },
     {
-      "path": ".",
-      "name": "Root"
+      "path": "packages/classify/react-core-components",
+      "name": "React Core Components"
+    },
+    {
+      "path": "packages/classify/react-formik-components",
+      "name": "React Formik Components"
+    },
+    {
+      "name": "[Apps] Legal",
+      "path": "modules/legal"
+    },
+    {
+      "name": "Root",
+      "path": "."
     }
   ],
   "settings": {
