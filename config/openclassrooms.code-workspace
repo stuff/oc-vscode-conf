@@ -89,7 +89,15 @@
       "comments": "off",
       "strings": "off"
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "conventionalCommits.scopes": [
+      "SdZv4",
+      "ui-web",
+      "classify",
+      "classify/design-tokens",
+      "classify/react-core-components",
+      "classify/react-formik-components"
+    ]
   },
   "extensions": {
     "recommendations": [
@@ -100,7 +108,8 @@
       "orta.vscode-jest",
       "xyz.local-history",
       "esbenp.prettier-vscode",
-      "cssho.vscode-svgviewer"
+      "cssho.vscode-svgviewer",
+      "vivaxy.vscode-conventional-commits"
     ]
   }
 }
