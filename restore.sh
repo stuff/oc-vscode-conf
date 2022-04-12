@@ -27,6 +27,9 @@ for FILE in $(find . -type f -path './config/**'); do
             done
 
         fi
+    else
+        DIFFED_COUNTER=$((DIFFED_COUNTER + 1))
+        rsync -aR $FILE $DESTINATION_DIR
     fi
 done
 
