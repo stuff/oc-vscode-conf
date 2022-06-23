@@ -7,7 +7,7 @@ If you want to override some settings, you must use the User tab of VSC preferen
 This config use workspaces for a better file organisation.
 
 * close vscode
-* clone the repo
+* clone this repo
 * run `./restore.sh [your-repo-path]` it may prompt you when replacing files, with a diff (so stop it if you think you'll lose some config !)
 * add `/openclassrooms.code-workspace` to your global git ignore. For now we don't want to pollute more the repo with specific IDE files
 * open vscode and use `Open workspace from File` to open the `openclassrooms.code-workspace` file (or type `code openclassrooms.code-workspace` at the root of the monorepo)
