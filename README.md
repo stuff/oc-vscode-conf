@@ -8,7 +8,7 @@ This config use workspaces for a better file organisation.
 
 * close vscode
 * clone this repo
-* run `./restore.sh [your-repo-path]` it may prompt you when replacing files, with a diff (so stop it if you think you'll lose some config !)
+* run `./restore.sh [your-sdzv4-repo-path]` it may prompt you when replacing files, with a diff (so stop it if you think you'll lose some config !)
 * add `/openclassrooms.code-workspace` to your global git ignore. For now we don't want to pollute more the repo with specific IDE files
 * open vscode and use `Open workspace from File` to open the `openclassrooms.code-workspace` file (or type `code openclassrooms.code-workspace` at the root of the monorepo)
 * you may be prompted to install some plugins if you don't already have them
