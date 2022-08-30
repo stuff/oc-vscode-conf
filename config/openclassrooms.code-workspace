@@ -80,9 +80,13 @@
     "typescript.tsserver.log": "off",
     "jest.debugCodeLens.showWhenTestStateIn": ["fail", "unknown"],
     "jest.jestCommandLine": "yarn test",
-    "jest.autoRun": "off",
-    "jest.disabledWorkspaceFolders": ["Root", "Classify Packages", "modules"],
+    "jest.autoRun": {
+      "watch": false,
+      "onSave": "test-file"
+    },
+    "jest.disabledWorkspaceFolders": ["Root", "modules"],
     "jest.coverageFormatter": "DefaultFormatter",
+    "jestrunner.jestCommand": "npm run test --",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "eslint.packageManager": "yarn",
