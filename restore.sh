@@ -5,19 +5,21 @@ DESTINATION_DIR=$1
 DIFFED_COUNTER=0
 
 for FILE in $(find . -type f -path './config/**'); do
-    DESTFILE=${FILE/.\/config/$DESTINATION_DIR}
-    if test -f "$DESTFILE"; then
-        DIFF="$(diff $DESTFILE $FILE)"
+    DEST_FILE=${FILE/.\/config/$DESTINATION_DIR}
+    DEST_FOLDER=$(dirname $DEST_FILE)
+    if test -f "$DEST_FILE"; then
+        DIFF="$(diff $DEST_FILE $FILE)"
 
         if [[ ! -z "$DIFF" ]]; then
             DIFFED_COUNTER=$((DIFFED_COUNTER + 1))
-            diff -u --color $DESTFILE $FILE
+            diff -u --color $DEST_FILE $FILE
             while true; do
-                read -r -p "Do you wish to overwrite $DESTFILE? [Y/n] " input
+                read -r -p "Do you wish to overwrite $DEST_FILE? [Y/n] " input
 
                 case $input in
                 [yY][eE][sS] | [yY] | "")
-                    cp -f $FILE $DESTFILE
+                    cp -f "$FILE" "$DEST_FILE"
+                    echo "Copied $FILE --> $DEST_FOLDER"
                     break
                     ;;
                 [nN][oO] | [nN])
@@ -29,7 +31,11 @@ for FILE in $(find . -type f -path './config/**'); do
         fi
     else
         DIFFED_COUNTER=$((DIFFED_COUNTER + 1))
-        rsync -aR $FILE $DESTINATION_DIR
+
+        mkdir -p -- "$DEST_FOLDER"
+        cp -- "$FILE" "$DEST_FOLDER/"
+
+        echo "Copied $FILE --> $DEST_FOLDER"
     fi
 done
 
