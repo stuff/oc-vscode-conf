@@ -34,7 +34,15 @@
     },
     {
       "path": "packages/classify/react-formik-components",
-      "name": "📘React Formik Components"
+      "name": "📝  React Formik Components"
+    },
+    {
+      "path": "packages/classify/react-marketing-components",
+      "name": "🌟 React Marketing Components"
+    },
+    {
+      "path": "packages/classify/react-product-components",
+      "name": "👨‍🏫 React Product Components"
     },
     {
       "name": "🧩Legal",
