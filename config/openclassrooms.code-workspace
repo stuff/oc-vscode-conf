@@ -90,12 +90,6 @@
     "errorLens.gutterIconsEnabled": true,
     "errorLens.gutterIconSet": "defaultOutline",
     "errorLens.messageTemplate": "[$source] $message",
-    "editor.quickSuggestions": {
-      "other": "on",
-      "comments": "off",
-      "strings": "off"
-    },
-    "editor.formatOnSave": true,
     "conventionalCommits.scopes": [
       "SdZv4",
       "ui-web",
