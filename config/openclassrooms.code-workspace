@@ -2,42 +2,50 @@
   "folders": [
     {
       "path": "src/OC/AppBundle/Javascript/src/App/Modules",
-      "name": "💼SdZv4 main js"
+      "name": "💼 SdZv4 main js"
     },
     {
       "path": "packages/openclassrooms",
-      "name": "📦Packages"
+      "name": "📦 Packages"
     },
     {
       "path": "packages/openclassrooms/openclassrooms-sdk-web",
-      "name": "📦SDK"
+      "name": "📦 SDK"
     },
     {
       "path": "packages/openclassrooms/openclassrooms-data-connect-web",
-      "name": "📦Data Connect"
+      "name": "📦 Data Connect"
     },
     {
       "path": "packages/openclassrooms/openclassrooms-ui-web",
-      "name": "📦UI web"
+      "name": "📦 UI web"
     },
     {
       "path": "packages/classify",
-      "name": "📘Classify"
+      "name": "📘 Classify"
     },
     {
       "path": "packages/classify/design-tokens",
-      "name": "📘Design Tokens"
+      "name": "📘 Design Tokens"
     },
     {
       "path": "packages/classify/react-core-components",
-      "name": "📘React Core Components"
+      "name": "📘 React Core Components"
     },
     {
       "path": "packages/classify/react-formik-components",
-      "name": "📘React Formik Components"
+      "name": "📝 React Formik Components"
     },
     {
-      "name": "🧩Legal",
+      "path": "packages/classify/react-marketing-components",
+      "name": "🌟 React Marketing Components"
+    },
+    {
+      "path": "packages/classify/react-product-components",
+      "name": "👨‍🏫 React Product Components"
+    },
+    {
+      "name": "🧩 Legal",
       "path": "modules/legal"
     },
     {
