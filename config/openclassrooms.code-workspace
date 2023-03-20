@@ -46,11 +46,6 @@
     }
   ],
   "settings": {
-    "workbench.colorCustomizations": {
-      "activityBar.background": "#402d80",
-      "titleBar.activeBackground": "#7451eb",
-      "titleBar.activeForeground": "#d2cce7"
-    },
     "search.exclude": {
       ".history": true,
       ".idea": true,
