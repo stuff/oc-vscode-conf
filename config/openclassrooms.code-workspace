@@ -102,7 +102,15 @@
     "eslint.trace.server": "off",
     "errorLens.gutterIconsEnabled": true,
     "errorLens.gutterIconSet": "defaultOutline",
-    "errorLens.messageTemplate": "[$source] $message"
+    "errorLens.messageTemplate": "[$source] $message",
+    "conventionalCommits.scopes": [
+      "SdZv4",
+      "ui-web",
+      "classify",
+      "classify/design-tokens",
+      "classify/react-core-components",
+      "classify/react-formik-components"
+    ]
   },
   "extensions": {
     "recommendations": [
@@ -111,7 +119,8 @@
       "eamodio.gitlens",
       "orta.vscode-jest",
       "esbenp.prettier-vscode",
-      "cssho.vscode-svgviewer"
+      "cssho.vscode-svgviewer",
+      "vivaxy.vscode-conventional-commits"
     ]
   }
 }
